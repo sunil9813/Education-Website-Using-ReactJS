@@ -1,4 +1,6 @@
 import React from "react"
+import Logo from "../../../img/Logo.jpg"
+
 
 const Head = () => {
   return (
@@ -6,8 +8,9 @@ const Head = () => {
       <section className='head'>
         <div className='container flexSB'>
           <div className='logo'>
-            <h1>ACADEMIA</h1>
-            <span>ONLINE EDUCATION & LEARNING</span>
+            <img src={Logo} alt="" style={{height: 70, width: 150}} />
+            {/* <h1>ADWWINPA BUSINESS</h1>
+            <span>WE GET YOU KNOWN</span> */}
           </div>
 
           <div className='social'>
