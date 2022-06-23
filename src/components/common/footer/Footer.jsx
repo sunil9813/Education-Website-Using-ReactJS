@@ -1,11 +1,11 @@
 import React from "react"
-import { blog } from "../../../dummydata"
+// import { blog } from "../../../dummydata"
 import "./footer.css"
 
 const Footer = () => {
   return (
     <>
-      <section className='newletter'>
+      {/* <section className='newletter'>
         <div className='container flexSB'>
           <div className='left row'>
             <h1>Newsletter - Stay tune and get the latest update</h1>
@@ -16,12 +16,12 @@ const Footer = () => {
             <i className='fa fa-paper-plane'></i>
           </div>
         </div>
-      </section>
+      </section> */}
       <footer>
         <div className='container padding'>
           <div className='box logo'>
-            <h1>ACADEMIA</h1>
-            <span>ONLINE EDUCATION & LEARNING</span>
+          <h1>ADWWINPA BUSINESS</h1>
+            <span>WE GET YOU KNOWN</span>
             <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
 
             <i className='fab fa-facebook-f icon'></i>
@@ -33,12 +33,11 @@ const Footer = () => {
             <ul>
               <li>About Us</li>
               <li>Services</li>
-              <li>Courses</li>
-              <li>Blog</li>
+              
               <li>Contact us</li>
             </ul>
           </div>
-          <div className='box link'>
+          {/* <div className='box link'>
             <h3>Quick Links</h3>
             <ul>
               <li>Contact Us</li>
@@ -47,8 +46,8 @@ const Footer = () => {
               <li>Privacy</li>
               <li>Feedbacks</li>
             </ul>
-          </div>
-          <div className='box'>
+          </div> */}
+          {/* <div className='box'>
             <h3>Recent Post</h3>
             {blog.slice(0, 3).map((val) => (
               <div className='items flexSB'>
@@ -68,21 +67,21 @@ const Footer = () => {
                 </div>
               </div>
             ))}
-          </div>
+            </div> */}
           <div className='box last'>
             <h3>Have a Questions?</h3>
             <ul>
               <li>
                 <i className='fa fa-map'></i>
-                203 Fake St. Mountain View, San Francisco, California, USA
+                Amanfro, Toptown - Accra Ghana
               </li>
               <li>
                 <i className='fa fa-phone-alt'></i>
-                +2 392 3929 210
+                +233 54 544 6826
               </li>
               <li>
                 <i className='fa fa-paper-plane'></i>
-                info@yourdomain.com
+                adwinpa@gmail.com
               </li>
             </ul>
           </div>
@@ -90,7 +89,7 @@ const Footer = () => {
       </footer>
       <div className='legal'>
         <p>
-          Copyright ©2022 All rights reserved | This template is made with <i className='fa fa-heart'></i> by GorkhCoder
+          Copyright ©2022 All rights reserved | This website is made with <i className='fa fa-heart'></i> by Godfrey
         </p>
       </div>
     </>
