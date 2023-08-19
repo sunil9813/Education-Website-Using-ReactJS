@@ -5,6 +5,11 @@
   text-align: left;
   padding: 0;
 }
+.aboutHome #subtitle {
+  text-align: left;
+  padding: 0;
+  color: #1eb2a6;
+}
 .aboutHome .left img {
   width: 100%;
   height: 100%;

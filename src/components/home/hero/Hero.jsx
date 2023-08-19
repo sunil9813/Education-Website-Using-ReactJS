@@ -8,10 +8,19 @@ const Hero = () => {
       <section className="hero">
         <div className="container">
           <div className="row">
-            <Heading
-              subtitle="MARHABAH! We welcome you to"
-              title="Daar ul-Gharib"
-            />
+            {/* <video
+              id="background-video"
+              autoplay
+              loop
+              muted
+              poster="../public/assets/images/dhikr/recitation.jpg"
+            >
+              <source
+                src="../public/assets/videos/recitation.mp4"
+                type="video/mp4"
+              ></source>
+            </video> */}
+            <Heading subtitle="MARHABAH!" title="Daar ul-Gharib" />
             <p>
               Daar ul-Gharib is a Queer, femme and non-binary focused mosque
               (masjid) with an emphasis on disabled and other marginalized

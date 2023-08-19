@@ -6,7 +6,8 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #f8f8f8;
+  background-color: black;
+  color: #cf3476;
 }
 /*------------global-----------*/
 .container {
@@ -43,8 +44,8 @@ li {
 }
 button {
   padding: 17px 30px;
-  background-color: #fff;
-  color: #1eb2a6;
+  background-color: #cf3476;
+  color: black;
   font-weight: 600;
   border: none;
   margin: 30px 10px 0 0;
@@ -61,19 +62,20 @@ button:hover {
 }
 .primary-btn {
   background-color: #1eb2a6;
-  color: #fff;
+  color: black;
 }
 
 /*------------global-----------*/
 #heading {
-  text-align: center;
+  text-align: left;
   padding: 40px 0;
 }
-#heading h3 {
+#subtitle h3 {
   font-weight: 600;
   letter-spacing: 1px;
   color: #1eb2a6;
   text-transform: uppercase;
+  text-align: left;
 }
 #heading h1 {
   font-size: 45px;

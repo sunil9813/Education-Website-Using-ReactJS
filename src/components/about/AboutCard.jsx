@@ -8,7 +8,10 @@ const AboutCard = () => {
       <section className="aboutHome">
         <div className="container flexSB">
           <div className="left row">
-            <img src="./assets/images/logo.jpg" alt="Daar ul-Gharib logo" />
+            <img
+              src="../assets/images/masjidlogo1.png"
+              alt="Daar ul-Gharib logo"
+            />
           </div>
           <div className="right row">
             <Heading subtitle="Daar ul-Gharib" title="About Us" />
