@@ -2,20 +2,20 @@ export const homeAbout = [
   {
     id: 1,
     cover: "./assets/images/dhikr/dhikr.jpg",
-    title: "Online Courses",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    title: "Our Mission Statement",
+    desc: "Read our mission statement and bylaws!",
   },
   {
     id: 1,
     cover: "./assets/images/dhikr/mushaf-dhikr.jpg",
-    title: "Earn A Certificates",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    title: "Meet our team",
+    desc: "Learn about the members of the board!",
   },
   {
     id: 1,
     cover: "./assets/images/dhikr/mushaf2.jpg",
-    title: "Learn with Expert",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    title: "Explore our Services",
+    desc: "Explore a list of free and paid services!",
   },
 ];
 // export const awrapper = [

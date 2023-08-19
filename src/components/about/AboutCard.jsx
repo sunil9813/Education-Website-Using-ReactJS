@@ -8,13 +8,10 @@ const AboutCard = () => {
       <section className="aboutHome">
         <div className="container flexSB">
           <div className="left row">
-            <img src="./images/about.webp" alt="" />
+            <img src="./assets/images/logo.jpg" alt="Daar ul-Gharib logo" />
           </div>
           <div className="right row">
-            <Heading
-              subtitle="LEARN ANYTHING"
-              title="Benefits About Online Learning Expertise"
-            />
+            <Heading subtitle="Daar ul-Gharib" title="About Us" />
             <div className="items">
               {homeAbout.map((val) => {
                 return (
