@@ -74,12 +74,12 @@ export const coursesCard = [
   },
   {
     id: 3,
-    cover: "../images/courses/c3.png",
-    coursesName: "HTML, CSS, and Javascript for Web Developers",
+    cover: "../assets/images/dhikr/quran.jpg",
+    coursesName: "Spiritial Counseling",
     courTeacher: [
       {
-        dcover: "./images/back.webp",
-        name: "by Saroj Nepal",
+        dcover: "",
+        name: "offered by Sheikha Sajida and Ustadh Ezra",
         totalTime: "50 lectures (50 hrs)",
       },
     ],
@@ -249,28 +249,29 @@ export const team = [
   {
     cover: "./assets/images/board/sajida.jpg",
     name: "Sheikha Sajida",
-    work: "She/her",
+    pronouns: "She/her",
     about:
       "Sheikha Sajida is a graduate of Lindenwood University with a BA in Religious Studies and a minor in Anthropology. She has done some Master's level work at Eden Seminary in Theology, as well as having taken some further Islamic Studies courses. She reverted to Islam after feeling Called to it by Allah subhana w ta'ala after the Pulse shooting and opened the Masjid due to His guidance and extreme community need. Sheikha works hard to be present for our community, providing emotional and spiritual guidance, while also doing other nonprofit work for Hidayah for the greater LGBT+ Muslim community.",
   },
   {
     cover: "./assets/images/board/ezra.jpg",
     name: "Ustadh Ezra",
-    work: "They/them",
+    pronouns: "They/them",
     about:
-      "Ustadh Ezra is a graduate of New College of Florida with a BA in Religious Studies, having written an honor's thesis in Disability Theology. Sister Ezra previously worked as an Ustadhah at a masjid in Florida. Sister Ezra believes firmly in equality, liberation theology, an inclusive understandings of scripture. While they are no longer providing services, when they did they provided prayer services, Jummah and Eid khutab, nikkah services, spiritual counseling, healing circles, meditation, and more within the masjid. They try to build opportunities for community connection and community care.",
+      "Ustadh Ezra is a graduate of New College of Florida with a BA in Religious Studies, having written an honor's thesis in Disability Theology. Ud. Ezra previously worked as an Ustadh at a masjid in Florida. Ud. Ezra believes firmly in equality, liberation theology, and inclusive understandings of scripture. They provide nikkah services, spiritual counseling, healing circles, meditation, Qur'an readings, classes, and more within the masjid. They try to build opportunities for community connection and community care.",
   },
   {
     cover: "./assets/images/board/charlie.jpg",
     name: "Alim Charlie",
-    work: "They/them",
+    pronouns: "They/them",
     about:
       "Charlie is a recent graduate of the University of North Florida with a BA in anthropology, and is looking forward to starting their career, in shaa Allah! They converted in November of 2017, and they've always been committed to continuing to increase their knowledge of Islam. From scholarly research to a quick educated Google search, they are always seeking new information in order to better serve our congregation.",
   },
   {
     cover: "./assets/images/board/layla.jpg",
     name: "Lead Moderator Layla",
-    work: "She/her",
+    pronouns: "She/her",
+    about: "Coming soon, in Shaa Allah!",
   },
 ];
 export const price = [
