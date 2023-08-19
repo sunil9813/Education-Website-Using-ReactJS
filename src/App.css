@@ -86,7 +86,7 @@ p {
 }
 
 .back {
-  background-image: url("../public/images/back.webp");
+  background-image: url("../public/assets/images/people/prayer-hands.jpg");
   background-size: cover;
   background-attachment: fixed;
   position: absolute;

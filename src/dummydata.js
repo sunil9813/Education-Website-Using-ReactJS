@@ -1,74 +1,76 @@
 export const homeAbout = [
   {
     id: 1,
-    cover: "https://img.icons8.com/dotty/80/000000/storytelling.png",
+    cover: "./assets/images/dhikr/dhikr.jpg",
     title: "Online Courses",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
   },
   {
     id: 1,
-    cover: "https://img.icons8.com/ios/80/000000/diploma.png",
+    cover: "./assets/images/dhikr/mushaf-dhikr.jpg",
     title: "Earn A Certificates",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
   },
   {
     id: 1,
-    cover: "https://img.icons8.com/ios/80/000000/athlete.png",
+    cover: "./assets/images/dhikr/mushaf2.jpg",
     title: "Learn with Expert",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
   },
-]
-export const awrapper = [
-  {
-    cover: "https://img.icons8.com/external-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto/80/ffffff/external-graduation-education-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto.png",
-    data: "3,000",
-    title: "SUCCESS STORIES",
-  },
+];
+// export const awrapper = [
+//   {
+//     cover:
+//       "https://img.icons8.com/external-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto/80/ffffff/external-graduation-education-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto.png",
+//     data: "3,000",
+//     title: "SUCCESS STORIES",
+//   },
 
-  {
-    cover: "https://img.icons8.com/ios/80/ffffff/athlete.png",
-    data: "320",
-    title: "TRUSTED TUTORS",
-  },
-  {
-    cover: "https://img.icons8.com/external-outline-icons-maxicons/80/ffffff/external-calender-insurance-outline-outline-icons-maxicons.png",
-    data: "1,000",
-    title: "SCHEDULES",
-  },
-  {
-    cover: "https://img.icons8.com/ios/80/ffffff/macbook-idea--v3.png",
-    data: "587",
-    title: "COURSES",
-  },
-]
+//   {
+//     cover: "https://img.icons8.com/ios/80/ffffff/athlete.png",
+//     data: "320",
+//     title: "TRUSTED TUTORS",
+//   },
+//   {
+//     cover:
+//       "https://img.icons8.com/external-outline-icons-maxicons/80/ffffff/external-calender-insurance-outline-outline-icons-maxicons.png",
+//     data: "1,000",
+//     title: "SCHEDULES",
+//   },
+//   {
+//     cover: "https://img.icons8.com/ios/80/ffffff/macbook-idea--v3.png",
+//     data: "587",
+//     title: "COURSES",
+//   },
+// ];
 export const coursesCard = [
   {
     id: 1,
-    cover: "../images/courses/c1.png",
-    coursesName: "Introducing to Software Engineering",
+    cover: "../assets/images/dhikr/mushaf.jpg",
+    coursesName: "Qur'an Readings",
     courTeacher: [
       {
-        dcover: "./images/back.webp",
-        name: "by John Smith",
-        totalTime: "50 lectures (190 hrs)",
+        dcover: "../assets/images/board/sajida.jpg",
+        name: "led by Sheikha Sajida",
+        totalTime: "Free",
       },
     ],
-    priceAll: "$100 All Course",
-    pricePer: "$15 per month",
+    priceAll: "Every Friday",
+    pricePer: "",
   },
   {
     id: 2,
-    cover: "../images/courses/c2.png",
-    coursesName: "Enhancing Adobe Photoshop CC 2020 Skills",
+    cover: "../assets/images/dhikr/quran.jpg",
+    coursesName: "New Muslim 'Aqidah Class",
     courTeacher: [
       {
-        dcover: "./images/back.webp",
-        name: "by Ram Gurung",
-        totalTime: "30 lectures (125 hrs)",
+        dcover: "../assets/images/board/ezra.jpg",
+        name: "led by Ud. Ezra",
+        totalTime: "Free",
       },
     ],
-    priceAll: "$200 All Course",
-    pricePer: "$25 per month",
+    priceAll: "Every Sunday",
+    pricePer: "",
   },
   {
     id: 3,
@@ -168,7 +170,7 @@ export const coursesCard = [
     priceAll: "$20 All Course",
     pricePer: "$3 per month",
   },
-]
+];
 export const online = [
   {
     cover: "./images/courses/online/o1.png",
@@ -242,49 +244,35 @@ export const online = [
     courseName: "Web Management",
     course: "17 Courses",
   },
-]
+];
 export const team = [
   {
-    cover: "./images/team/t1.webp",
-    name: "Ph.D Adrian Molises",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    cover: "./assets/images/board/sajida.jpg",
+    name: "Sheikha Sajida",
+    work: "She/her",
+    about:
+      "Sheikha Sajida is a graduate of Lindenwood University with a BA in Religious Studies and a minor in Anthropology. She has done some Master's level work at Eden Seminary in Theology, as well as having taken some further Islamic Studies courses. She reverted to Islam after feeling Called to it by Allah subhana w ta'ala after the Pulse shooting and opened the Masjid due to His guidance and extreme community need. Sheikha works hard to be present for our community, providing emotional and spiritual guidance, while also doing other nonprofit work for Hidayah for the greater LGBT+ Muslim community.",
   },
   {
-    cover: "./images/team/t2.webp",
-    name: "Ph.D Arthur MaGregor",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    cover: "./assets/images/board/ezra.jpg",
+    name: "Ustadh Ezra",
+    work: "They/them",
+    about:
+      "Ustadh Ezra is a graduate of New College of Florida with a BA in Religious Studies, having written an honor's thesis in Disability Theology. Sister Ezra previously worked as an Ustadhah at a masjid in Florida. Sister Ezra believes firmly in equality, liberation theology, an inclusive understandings of scripture. While they are no longer providing services, when they did they provided prayer services, Jummah and Eid khutab, nikkah services, spiritual counseling, healing circles, meditation, and more within the masjid. They try to build opportunities for community connection and community care.",
   },
   {
-    cover: "./images/team/t3.webp",
-    name: "Ph.D Anna Hanzen",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    cover: "./assets/images/board/charlie.jpg",
+    name: "Alim Charlie",
+    work: "They/them",
+    about:
+      "Charlie is a recent graduate of the University of North Florida with a BA in anthropology, and is looking forward to starting their career, in shaa Allah! They converted in November of 2017, and they've always been committed to continuing to increase their knowledge of Islam. From scholarly research to a quick educated Google search, they are always seeking new information in order to better serve our congregation.",
   },
   {
-    cover: "./images/team/t4.webp",
-    name: "Ph.D Brian Wooden",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    cover: "./assets/images/board/layla.jpg",
+    name: "Lead Moderator Layla",
+    work: "She/her",
   },
-  {
-    cover: "./images/team/t5.webp",
-    name: "Ph.D Adrian Molises",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
-  {
-    cover: "./images/team/t6.webp",
-    name: "Ph.D Arthur MaGregor",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
-  {
-    cover: "./images/team/t7.webp",
-    name: "Ph.D Anna Hanzen",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
-  {
-    cover: "./images/team/t8.webp",
-    name: "Ph.D Brian Wooden",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
-]
+];
 export const price = [
   {
     name: "BASIC PLAN",
@@ -306,7 +294,7 @@ export const price = [
     price: "149K",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
   },
-]
+];
 export const faq = [
   {
     title: "How to Enroll This Online Courses?",
@@ -332,7 +320,7 @@ export const faq = [
     title: "How It is hidden by default, until the collapse?",
     desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
   },
-]
+];
 export const blog = [
   {
     id: 1,
@@ -388,7 +376,7 @@ export const blog = [
     desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
     cover: "../images/blog/b6.webp",
   },
-]
+];
 export const testimonal = [
   {
     id: 1,
@@ -411,4 +399,4 @@ export const testimonal = [
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
     cover: "./images/testo/t3.webp",
   },
-]
+];
