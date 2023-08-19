@@ -43,132 +43,54 @@ export const homeAbout = [
 //     title: "COURSES",
 //   },
 // ];
-export const coursesCard = [
+export const servicesCards = [
   {
     id: 1,
-    cover: "../assets/images/dhikr/mushaf.jpg",
+    cover: "../assets/images/icons/book-quran-solid.svg",
     coursesName: "Qur'an Readings",
     courTeacher: [
       {
-        dcover: "../assets/images/board/sajida.jpg",
         name: "led by Sheikha Sajida",
-        totalTime: "Free",
+        price: "Free",
       },
     ],
-    priceAll: "Every Friday",
-    pricePer: "",
+    offer: "Every Friday",
   },
   {
     id: 2,
-    cover: "../assets/images/dhikr/quran.jpg",
+    cover: "../assets/images/icons/basmala.png",
     coursesName: "New Muslim 'Aqidah Class",
     courTeacher: [
       {
-        dcover: "../assets/images/board/ezra.jpg",
         name: "led by Ud. Ezra",
-        totalTime: "Free",
+        price: "Free",
       },
     ],
-    priceAll: "Every Sunday",
-    pricePer: "",
+    offer: "Every Sunday",
   },
   {
     id: 3,
-    cover: "../assets/images/dhikr/quran.jpg",
+    cover: "../assets/images/icons/comment-medical-solid.svg",
     coursesName: "Spiritial Counseling",
     courTeacher: [
       {
-        dcover: "",
         name: "offered by Sheikha Sajida and Ustadh Ezra",
-        totalTime: "50 lectures (50 hrs)",
+        price: "$15 / 30 minutes",
       },
     ],
-    priceAll: "$50 All Course",
-    pricePer: "$5 per month",
+    offer: "Click to Inquire",
   },
   {
     id: 4,
-    cover: "../images/courses/c4.png",
-    coursesName: "Introducing to Programming with WordPress",
+    cover: "../assets/images/icons/heart-solid.svg",
+    coursesName: "Nikkah Services",
     courTeacher: [
       {
-        dcover: "./images/back.webp",
-        name: "by Prabin Thapa Mager",
-        totalTime: "20 lectures (20 hrs)",
+        name: "offered by Sheikha Sajida and Ustadh Ezra",
+        price: "Range of options",
       },
     ],
-    priceAll: "$30 All Course",
-    pricePer: "$3 per month",
-  },
-  {
-    id: 5,
-    cover: "../images/courses/c5.png",
-    coursesName: "Introducing to Programming with ReactJS",
-    courTeacher: [
-      {
-        dcover: "./images/back.webp",
-        name: "by Sunil Bishowkaram",
-        totalTime: "100 lectures (150 hrs)",
-      },
-    ],
-    priceAll: "$300 All Course",
-    pricePer: "$30 per month",
-  },
-  {
-    id: 6,
-    cover: "../images/courses/c6.png",
-    coursesName: "Learn Frontend Programming Language",
-    courTeacher: [
-      {
-        dcover: "./images/back.webp",
-        name: "by Sunil Bishowkaram",
-        totalTime: "200 lectures (300 hrs)",
-      },
-    ],
-    priceAll: "$500 All Course",
-    pricePer: "$80 per month",
-  },
-  {
-    id: 7,
-    cover: "../images/courses/c7.png",
-    coursesName: "Introducing to with HTML / CSS",
-    courTeacher: [
-      {
-        dcover: "./images/back.webp",
-        name: "by Price",
-        totalTime: "20 lectures (50 hrs)",
-      },
-    ],
-    priceAll: "$20 All Course",
-    pricePer: "$2 per month",
-  },
-  {
-    id: 8,
-    cover: "../images/courses/c8.png",
-    coursesName: "Introducing to with JAVA",
-    courTeacher: [
-      {
-        dcover: "./images/back.webp",
-        name: "by Petter",
-        totalTime: "80 lectures (200 hrs)",
-      },
-    ],
-    priceAll: "$200 All Course",
-    pricePer: "$40 per month",
-  },
-  {
-    id: 9,
-    cover: "../images/courses/c9.png",
-    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
-    courTeacher: [
-      {
-        dcover: "./images/back.webp",
-        name: "by Petter",
-        totalTime: "50 lectures (50 hrs)",
-      },
-    ],
-    priceAll: "$20 All Course",
-    pricePer: "$3 per month",
+    offer: "Click to Inquire",
   },
 ];
 export const online = [
